@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+:root {
+  --font: "Rubik", sans-serif;
+  --bg-pink: #fe696a;
+  --bg-pink-hover: #fe3638;
+}
+.pointer {
+  cursor: pointer;
+}
+.product-item {
+  padding: 0 0.5rem;
+}
+.product-card {
+  padding-bottom: 1.25rem;
+  border: 0;
+  transition: all 0.15s ease-in-out;
+}
+.product-card:hover {
+  z-index: 10;
+  box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+}
+.card-body {
+  position: relative;
+  background-color: #fff;
+  z-index: 2;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: var(--font);
+}
+.card-body-hidden {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  margin-top: -1.25rem;
+  transition: all 0.15s ease-in-out;
+  border-radius: 0.4375rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.product-card:hover:not(.card-static) .card-body-hidden {
+  opacity: 1;
+  visibility: visible;
+  box-shadow: 0 0.3rem 1.525rem -0.375rem rgb(0 0 0 / 10%);
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.card-title:hover {
+  color: #fe696a;
+}
+.card-description p {
+  font-size: 0.875rem;
+  color: #909090;
+  margin-bottom: 0.5rem;
+}
+.product-transition {
+  transition: color 0.25s ease-in-out;
+}
+.card-description p:hover {
+  color: #4b566b;
+}
+.card-price {
+  color: #4e54c8;
+}
+.card-buttons {
+  margin-top: 1rem;
+}
+.card-carritoButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+  font-size: 13px;
+  background-color: var(--bg-pink);
+  border-color: var(--bg-pink);
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.card-carritoButton:hover {
+  background-color: var(--bg-pink-hover);
+  border-color: var(--bg-pink-hover);
+}
+.card-carritoButton:focus {
+  background-color: var(--bg-pink-hover);
+  border-color: var(--bg-pink-hover);
+  box-shadow: none;
+}
+.card-carritoButton:not(:disabled):not(.disabled):active:focus {
+  background: var(--bg-pink-hover);
+  border-color: var(--bg-pink-hover);
+  color: var(--white);
+  box-shadow: none;
+}
+.card-viewButton {
+  font-family: var(--font);
+  font-size: 13px;
+  background-color: var(--white);
+  border: none;
+  color: #4b566b;
+  transition: color 0.2s ease-in-out;
+}
+.card-viewButton:hover {
+  background-color: var(--white);
+  color: var(--bg-pink);
+}
+.card-viewButton:focus {
+  background-color: var(--white);
+  border-color: var(--white);
+  color: var(--bg-pink);
+  box-shadow: none;
+}
+.card-viewButton:not(:disabled):not(.disabled):active:focus {
+  background: var(--white);
+  border-color: var(--white);
+  color: var(--bg-pink);
+  box-shadow: none;
+}

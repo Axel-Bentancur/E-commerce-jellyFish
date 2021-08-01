@@ -1,0 +1,39 @@
+.carousel {
+  height: 40vw;
+  background-color: rgb(80, 78, 78);
+}
+.carousel-indicators {
+  display: none;
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel-item {
+  height: 100%;
+  overflow: hidden;
+  transition: transform 1.5s ease-in-out;
+}
+.imagen {
+  position: absolute;
+  top: -300px;
+  right: -50px;
+}
+.carousel-text {
+  left: 50%;
+  bottom: 40%;
+}
+.carousel-text,
+h3 {
+  font-weight: 300;
+}
+.carousel-text,
+h2 {
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.carousel-text,
+p {
+  font-weight: 400;
+  font-size: 1.125rem;
+}

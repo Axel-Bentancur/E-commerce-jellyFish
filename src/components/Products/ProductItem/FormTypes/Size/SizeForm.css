@@ -1,0 +1,20 @@
+.input-option-size:checked + label:after,
+.input-option-size:not(:checked) + label:after {
+  width: 50px;
+  height: 44px;
+  border: 1px solid #909090;
+}
+.input-option-size:checked + label:after {
+  border: 2px solid #000;
+}
+.size-options {
+  width: 50px;
+  height: 44px;
+}
+.option-img-size {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font);
+}

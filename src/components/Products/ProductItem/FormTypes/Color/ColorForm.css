@@ -1,0 +1,19 @@
+.input-option-color:checked + label:after,
+.input-option-color:not(:checked) + label:after {
+  width: 70px;
+  height: 70px;
+}
+.input-option-color:checked + label:after {
+  border-bottom: 2px solid #000;
+}
+.color-options {
+  width: 70px;
+  height: 70px;
+}
+.option-img-color {
+  display: block;
+  height: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

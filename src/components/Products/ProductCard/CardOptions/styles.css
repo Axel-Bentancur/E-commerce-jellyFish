@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+:root {
+  --font: "Rubik", sans-serif;
+}
+.option-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.form-option-color {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: -0.75rem;
+  margin-left: -0.75rem;
+  border-radius: 50%;
+}
+.form-option-size {
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.75rem;
+}
+.form-option-label {
+  position: relative;
+  min-width: 2rem;
+  height: 2rem;
+  border: 1.75px solid #e3e9ef;
+  cursor: pointer;
+  transition: border-color 0.25s ease-in-out;
+}
+.form-option-label:hover {
+  border: 1.75px solid #bbc7dd;
+}
+.color-label {
+  border-radius: 50%;
+}
+.size-label {
+  border-radius: 5px;
+}
+.round input[type="radio"],
+.square input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+.round input[type="radio"]:checked + label,
+.square input[type="radio"]:checked + label {
+  border-color: #fe696a;
+  color: #fe696a;
+}
+.form-check-input {
+  margin: 0;
+}

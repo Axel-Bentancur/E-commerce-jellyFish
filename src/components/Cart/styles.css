@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+:root {
+  --font: "Jost", sans-serif;
+  --pink-color: #fe696a;
+}
+.hero-container {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.hero-text {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+  font-family: var(--font);
+}
+.cart-header {
+  padding: 1.2rem 2rem;
+  text-transform: uppercase;
+  background: #f8f9fa;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  text-align: center;
+  font-size: 14px;
+}
+.cart-body {
+  padding: 0 2rem;
+}

@@ -1,0 +1,66 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+:root {
+  --font: "Jost", sans-serif;
+  --pink-color: #fe696a;
+} */
+
+/*-- BREADCRUMB --*/
+/* .breadcrumb {
+  background-color: #fff;
+  font-family: var(--font);
+  padding: 1rem 0;
+}
+.breadcrumb a {
+  text-decoration: none;
+  color: #909090;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+} */
+
+/*-- PRODUCTITEM --*/
+/* section {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+  margin-bottom: 50px;
+}
+.row {
+  height: 100%;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  cursor: pointer;
+}
+.card-img {
+  height: 60%;
+  max-width: 100%;
+  object-fit: cover;
+  padding-bottom: 20px;
+}
+.l-side {
+  padding-left: 4rem;
+}
+.product-category {
+  margin-bottom: 0.25rem;
+}
+.product-category a {
+  font-family: var(--font);
+  text-decoration: none;
+  color: #909090;
+}
+h3 {
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.price-container {
+  font-family: var(--font);
+  color: #909090;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+ */
